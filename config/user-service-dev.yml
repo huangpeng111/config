@@ -6,6 +6,11 @@ spring:
   cloud:
     config:
       override-none: true
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
 sp:
   user-service:
     users: "[{\"id\":72, \"username\":\"abc\",\"password\":\"123\"},{\"id\":82, \"username\":\"def\",\"password\":\"456\"},{\"id\":92, \"username\":\"ghi\",\"password\":\"789\"}]"
